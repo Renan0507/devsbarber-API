@@ -20,12 +20,13 @@ class BarberController extends Controller
         $this->middleware('auth:api');
         $this->loggedUser = auth()->user();
     }
-
+    
+    /*
     public function createRandom() {
         $array = ['error' => ''];
 
         for($q=0;$q<15;$q++) {
-            
+
             $names = ['Bonieky', 'Paulo', 'Pedro', 'Amanda', 'Leticia', 'Gabriel', 'Ronaldo'];
             $lastnames = ['Silva', 'Lacerda', 'Diniz', 'Alvaro', 'Sousa', 'Gomes'];
 
@@ -92,6 +93,22 @@ class BarberController extends Controller
             }
 
         }
+
+        return $array;
+    }
+    */
+
+    public function list(Request $request) {
+        $array = ['error' => ''];
+
+        $barbers = Barber::all();
+
+        foreach($barbers as $bkey => $bvalue) {
+            $barbers[$bkey]['avatar'] = url('media/avatars/'.$barbers[$bkey]['avatar']);
+        }
+
+        $array['data'] = $barbers;
+        $array['loc'] = 'São Paulo';
 
         return $array;
     }
