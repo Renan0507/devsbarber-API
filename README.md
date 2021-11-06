@@ -1,6 +1,6 @@
 <h1 align="center">:scissors: Devbarber API :scissors:</h1>
 
-<p align="center">O Devscond API se trata de uma API desenvolvida em laravel para ser utilizado no app mobile DevBarber, o mesmo se trata de um sistema de agendamento para barbeiros utilizando Geo Localização do Google, digamos que seria o ifood dos barbeiros HAHA.</p>
+<p align="center">O Devsbarber API se trata de uma API desenvolvida em laravel para ser utilizado no app mobile DevBarber, o mesmo se trata de um sistema de agendamento para barbeiros utilizando Geo Localização do Google, digamos que seria o ifood dos barbeiros HAHA.</p>
 
 ## :camera: Demonstração
 
