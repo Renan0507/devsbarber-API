@@ -70,7 +70,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - ✔️ Api Geo localização do google
 
-- ✔️ Intervencional Image
+- ✔️ Intervention Image
+
+- ✔️ Migrations
 
 
 ## ⚙ Configuração via Composer
