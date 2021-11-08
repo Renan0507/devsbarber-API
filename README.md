@@ -17,8 +17,8 @@
 # Funcionalidades
 
  - 1 - Unauthorized
- - 2 - Login
- - 3 - Cadastro
+ - 2 - Cadastro
+ - 3 - Login
  - 4 - Logout
  - 5 - Refresh token JWT
  - 6 - Listar Infomaçãoes do usuario logado
