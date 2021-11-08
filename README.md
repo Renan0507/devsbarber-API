@@ -5,7 +5,7 @@
 ## :camera: Demonstração
 
 <p align="center">
-  <img src="./git_img/1.png" height="800" >
+  <img src="./git_img/1.png" height="800">
   <img src="./git_img/2.png" height="800"><br/><br/>
   <img src="./git_img/3.png" height="800">
   <img src="./git_img/4.png" height="800"><br/><br/>
